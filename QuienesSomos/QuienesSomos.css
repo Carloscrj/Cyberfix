@@ -1,0 +1,173 @@
+.navegacion {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between; /*utilizar todo el ancho disponible*/
+    align-items: right;
+    height: 70px;
+    padding: 20px 0;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 90%; /*todo el cuerpo con un margen a los lados*/
+    margin: auto;
+}
+
+.logo {
+    width: 25%; /*tamaño logo*/
+}
+
+.navegacion ul {
+    display: flex; /*colocar elementos uno junto a otro en horizontal*/
+}
+
+.navegacion ul li {
+    padding: 20px; /*separar elementos*/
+}
+
+.iconohome {
+    width: 25%;
+    align-items: left;
+    position: absolute;
+}
+
+.navegacion ul li a {
+    padding: 2px;
+    text-decoration: none;
+}
+
+.navegacion ul.menu {
+    flex: 1; /*para colocar los elementos a la izquierda junto al logo*/
+    margin-left: 20px; 
+}
+
+.desplegable li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.desplegable li a:hover {
+    background-color: orange;
+}
+
+.desplegable > li {
+    float: left;
+}
+
+.desplegable li a#back {
+    background-color: #fad7a0;
+}
+
+.desplegable li ul {
+    display: none;
+    position: absolute;
+}
+
+.desplegable li:hover > ul{
+    display: block;
+}
+
+#contacto {
+    color: black;
+}
+
+#contacto:hover {
+    background-color: orange;
+}
+
+#iconohome {
+    width: 8%;
+    padding: 0;
+    align-items: left;
+    position: absolute;
+}
+
+#imagenCyberfix {
+    margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+h2{
+    text-align: center;
+    color: #004AAD;
+} 
+
+h3{
+    text-align: center;
+    color: black;
+    font-size: 150%;
+} 
+
+#Universidad_Europea:hover {
+    background-color: orange;
+}
+
+#Xiaomi:hover {
+    background-color: orange;
+}
+
+#ING:hover {
+    background-color: orange;
+}
+
+.imagenes_historia {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*colocar el contenido en 4 columnas*/
+    gap: 25px; /*espacio entre columnas*/
+    margin: 70px 0px; /*margen abajo y a los lados*/
+}
+
+.imagenes_historia img {
+    width: 80%;
+    height: 80%;
+}
+
+.fundadores{
+    text-align: center;
+    font-size: 150%;
+}
+
+.footer {
+    background-color: #004aad;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.footer h3 {
+    text-align: center;
+    background-color: #004aad;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #fff;
+}
+.footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer p1 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+img#llama {
+    width: 5%;
+    height: 5%;
+    align-items: left;
+}
+
+.cambioidioma i{
+    color: black;
+}
+
+.cambioidioma i:hover {
+    color: orange;
+}
